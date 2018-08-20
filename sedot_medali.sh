@@ -1,7 +1,10 @@
 #!/bin/bash
-# Sedot medali abal-abal
-# from https://en.asiangames2018.id/medals/noc/INA
-# Using 'requests' and `BeautifulSoup`
+# Sedot medali Asian Games abal-abal
+# Using Python 'requests' and `BeautifulSoup`
+#
+# If found new medal for Indonesia, play IndonesiaRaya.mp3
+# wkwkwkwk
+#
 # /ialexs Mon Aug 20 16:42:45 WIB 2018
 
 # my fav date

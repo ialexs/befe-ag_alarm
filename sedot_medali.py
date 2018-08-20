@@ -1,3 +1,5 @@
+# -- NOT USED. INCLUDED IN THE sedot_medali.sh
+
 #!/usr/bin/python
 # Sedot medali abal-abal
 # Using 'requests' and `BeautifulSoup`

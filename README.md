@@ -2,23 +2,30 @@
 
 > Mon Aug 20 14:01:48 WIB 2018 - by ialexs
 
-Lucu-lucuan.
+![](./mascot.png)
+## Lucu-lucuan.
 
-Ide dari obrolan di WA Group (Senin/20Ags2-18) ttg hasil medali Indonesia di Asian Games 2018 
+Ide dari obrolan di WA Group (Senin/20Ags2-18) ttg hasil medali Indonesia di Asian Games 2018
 
-## Konsep Gembel
+Basic proof-of-concept
+
+
+## Konbel - Konsep Gembel
 
 Kalau Indonesia mendapatkan medali, otomatis lagu Indonesia Raya berkumandang di pantry wkwkwkwk :D
 
-## Metode
+## Mebel - Metode Gembel
 
 Deteksi perubahan pada halaman perolehan medali dari website resmi Asian Games
 
--   URL: httpss://en.asiangames2018.id/medals/noc/INA
+-   URL: <https://en.asiangames2018.id/medals/noc/INA>
 
-Dengan melakukan
+By:
 
--   Secara periodik melakukan _scrapping_ URL (menggunakan <https://www.crummy.com/software/BeautifulSoup/>)
--   Output jadi file \*.txt
--   Bandingkan dengan \*.txt sebelumnya
--   Jika ada perubahan, mainkan Indonesia Raya 30 detik (menggunakan `play` pada server)
+-   Secara periodik melakukan _scrapping_ URL <br>(using BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/>) _baru tau BeautifulSoup hari ini :D :D_
+-   Output jadi file \*.dat
+-   Bandingkan dengan \*.dat sebelumnya
+-   Jika ada perubahan, mainkan Indonesia Raya 30 detik <br>(using `play` Notes: `play` is from SoX <http://sox.sourceforge.net/>)
+
+> end
+
