@@ -22,7 +22,7 @@ Deteksi perubahan pada halaman perolehan medali dari website resmi Asian Games
 
 By:
 
--   Secara periodik melakukan _scrapping_ URL <br>(using BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/>) _baru tau BeautifulSoup hari ini :D :D_
+-   Secara periodik (via 'crontab') melakukan _scrapping_ URL <br>(using BeautifulSoup <https://www.crummy.com/software/BeautifulSoup/>) _baru tau BeautifulSoup hari ini :D :D_
 -   Output jadi file \*.dat
 -   Bandingkan dengan \*.dat sebelumnya
 -   Jika ada perubahan, mainkan Indonesia Raya 30 detik <br>(using `play` Notes: `play` is from SoX <http://sox.sourceforge.net/>)
