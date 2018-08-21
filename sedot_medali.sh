@@ -10,6 +10,8 @@
 # my fav date
 date=`date +%Y%m%d-%0k%M%S`
 
+echo $date >> .log.txt
+
 # sedotan_py - python script#/*
 sedotan_py="
 # import perabotan lenong
@@ -69,8 +71,8 @@ if [ -e latest.dat ]; then
 			rm -rf `readlink latest.dat` ; rm -rf latest.dat
 			ln -s medali-$date.dat latest.dat
 
-			echo -e "\nMedali nambahhh..!\n... Play Indonesia Rayaaa..." ;
-			#play -q 09-Simphoni-1Stanza-30sec.wav
+			echo -e "\nMedali nambahhh..!\n... Play Indonesia Rayaaa..." | tee -a .log.txt ;
+			play -q 09-Simphoni-1Stanza-30sec.wav
 		fi
 
 else
