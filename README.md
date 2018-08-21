@@ -12,7 +12,10 @@ Basic proof-of-concept
 
 ## Konbel - Konsep Gembel
 
-Kalau Indonesia mendapatkan medali, otomatis lagu Indonesia Raya berkumandang di pantry wkwkwkwk :D
+Kalau Indonesia mendapatkan medali, otomatis lagu Indonesia Raya berkumandang di kantor :D :D
+
+
+~~~~~\o/ ~~~\o/
 
 ## Mebel - Metode Gembel
 

@@ -12,7 +12,7 @@ date=`date +%Y%m%d-%0k%M%S`
 
 echo $date >> .log.txt
 
-# sedotan_py - python script#/*
+# sedotan_py - python script
 sedotan_py="
 # import perabotan lenong
 from requests import get
@@ -51,7 +51,8 @@ print silver_count
 print bronze_count
 "
 # sedotan_py end
-#*/
+#
+
 
 if [ -e latest.dat ]; then
     	echo "File 'latest.dat' exists. Fetch new data & compare with 'latest.dat'"
